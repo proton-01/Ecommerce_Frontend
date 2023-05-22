@@ -1,0 +1,6 @@
+step1:
+----------------------------------
+ buliding user authentication using   "Auth0.com"
+
+    1.login , logout , user profile using this 
+    2.connecting to mongodb is not possible in free version

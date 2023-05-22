@@ -1,0 +1,21 @@
+
+.shop_desc{
+    position: relative;
+    color: black;
+    top: 10vh;
+    margin: 0vh 12vw;
+
+    display: flex;
+    justify-content: space-between;
+
+    /* border: 1px solid; */
+}
+
+.products_cont{
+    position: relative;
+    display: grid;
+    grid-template-columns: 19vw 19vw 19vw 19vw;
+
+    margin: 2vh 12vw;
+    margin-top: 13vh;
+}

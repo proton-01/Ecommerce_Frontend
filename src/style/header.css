@@ -1,0 +1,65 @@
+.header {
+    height:10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    position: relative;
+    top: 6vh;
+    z-index: 100;
+    /* border: 1px solid; */
+  }
+  .header-logo {
+    width:100px;
+    object-fit: contain;
+    margin:0vw 5vw;
+    margin-top:1.5vh;
+    margin-left: 12vw;
+  }
+  
+  .header-nav {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 12vw;
+  }
+  .header-option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .header-option a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-option img{
+    height: 20px;
+  }
+   
+  #header_opt_login{
+    display: flex;
+    justify-content: center;
+  }
+
+  .header_btn{
+    width:80px;
+    font-size: 12px;
+    background-color: black;
+    color: white;
+    border: 0px;
+    height: 25px;
+
+   transition: 0.4s;
+  }
+  .header-option button:hover{
+    background-color: #bc8a5f;
+  }
+  .username{
+    margin-bottom: 5px;
+    color: #ae845f;
+  }

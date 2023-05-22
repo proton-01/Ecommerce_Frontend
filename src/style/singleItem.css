@@ -1,0 +1,173 @@
+.singleitem_main{
+    position: relative;
+    display: flex;
+    margin: 7vh 12vw 0vh 12vw;
+
+    /* border: 1px solid red; */
+}
+
+
+.singleitem_image{
+    /* height: 40vh; */
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* border: 1px solid green; */
+}
+
+.singleitem_details{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 60%;
+    margin-left: 100px;
+    margin-top:6vh;
+
+    /* border: 2px solid pink; */
+}
+.singleitem_details_1{
+    margin: 5px 0px;
+}
+.singleitem_details_3{
+    margin: 2px 0px;
+    font-size: 12px;
+}
+.singleitem_details_4{
+    margin: 8px 0px;
+}
+.singleitem_details_5{
+    margin: 3px 0px;
+    color: blueviolet;
+}
+
+.singleitem_details_6{
+    position: relative;
+    text-align: left;
+    font-size: 12px;
+    width: 60%;
+}
+.singleitem_details_7{
+    position: relative;
+    display: flex;
+
+}
+.singleitem_details_7 div{
+    position: relative;
+    margin-right: 20px;
+   
+}
+.singleitem_details_7 p{
+    font-size:12px;
+    margin: 2px 0px;
+}
+.singleitem_details_7 img{
+   height: 30px;
+   margin-right: 20px;
+}
+
+.singleitem_buttons{
+    margin: 10px 0px;
+    display: flex;
+}
+.singleitem_buttons button{
+    width:150px;
+    font-size: 12px;
+    background-color: black;
+    color: white;
+    border: 0px;
+    height: 35px;
+
+   margin-right: 5px;
+   transition: 0.4s;
+}
+.singleitem_buttons a{
+    text-decoration: none;
+    color: white;
+}
+.singleitem_buttons button:hover{
+    background-color: #bc8a5f;
+}
+
+
+
+.singleitem_review{
+    position: relative;
+    display: flex;
+    
+    align-items: flex-start;
+    margin: 7vh 12vw 2vh 12vw;
+
+    /* border: 1px solid rgb(94, 255, 0); */
+}
+.review_input_cont{
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    
+}
+.review_input_cont input{
+    position: relative;
+    height: 200px;
+    width: 500px;
+   
+}
+.review_input_cont button{
+    width:150px;
+    font-size: 12px;
+    background-color: black;
+    color: white;
+    border: 0px;
+    height: 35px;
+
+   margin-right: 5px;
+   margin-top: 5px;
+   transition: 0.4s;
+}
+.review_input_cont button:hover{
+    background-color: #bc8a5f;
+}
+
+.review_cont_upperdiv{
+position: relative;
+display: flex;
+flex-direction: column;
+width: 100%;
+
+}
+
+.review_cont{
+    position: relative;
+    width: 100%;
+}
+
+.review_box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    margin-left: 50px;
+}
+.author_cont{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 5px 0px 10px 20px;
+}
+.author_cont img{
+    height: 25px;
+}
+.author{
+    margin: 0px;
+    margin-left: 10px;
+}
+.comment{
+    margin: 5px 0px 10px 20px;
+    text-align: left;
+}

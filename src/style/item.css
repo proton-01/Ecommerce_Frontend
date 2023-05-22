@@ -1,0 +1,109 @@
+.item_container{
+    position: relative;
+    height: 62vh;
+    width:47vh;
+    margin-right: 2vw;
+    /* border: 1px solid red; */
+}
+.img_cont {
+    position: relative;
+    height: 47vh;
+    width: 47vh;
+    background-color:#f8edeb;
+    /* border-bottom: 1px solid; */
+
+    display: flex;
+    flex-direction: column;
+}
+.img_cont a img{
+    height: 47vh;
+}
+
+.add_to_cart_btn{
+    width:80%;
+    margin-left: 10%;
+    font-size: 17px;
+    background-color: white;
+    color: black;
+    border: 0px;
+    height: 45px;
+
+    /* logic for that hover transition , parent should be position relative */
+    position:absolute;
+    left: 0px;
+    bottom: -40px;
+    opacity: 0;
+    transition: 1s;
+}
+.img_cont:hover .add_to_cart_btn{
+    bottom: 20px;
+    opacity: 1;
+}
+.add_to_cart_btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.like_btn {
+    width:20%;
+    font-size: 12px;
+    background-color: white;
+    color: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 200px;
+    border: 0px;
+
+    /* logic for that hover transition , parent should be position relative */
+    position:absolute;
+    right: 0px;
+    top: 70px;
+    opacity: 0;
+    transition: 0.4s;
+}
+.img_cont:hover .like_btn{
+    right: 10px;
+    opacity: 1;
+}
+.quick_btn{
+    width:20%;
+    font-size: 12px;
+    background-color: white;
+    color: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 200px;
+    border: 0px;
+
+    /* logic for that hover transition , parent should be position relative */
+    position:absolute;
+    right: 0px;
+    top: 130px;
+    opacity: 0;
+    transition: 0.4s;
+}
+.img_cont:hover .quick_btn{
+    right: 10px;
+    opacity: 1;
+}
+.like_btn img,.quick_btn  a img {
+    /* background-color: black;
+    color: white; */
+    height: 20px;
+    height: 20px;
+}
+
+
+.text_cont h4{
+    margin: 0px 0px;
+}
+.text_cont h5{
+    margin: 10px 0px;
+    color: #ae845f;
+}
+.text_cont p{
+    margin: 2px 0px;
+}
+.text_cont p:hover{
+    color: #ae845f;
+}

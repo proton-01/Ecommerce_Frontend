@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;1,400;1,500&display=swap');
+
+.items_container{
+    position: relative;
+    margin:0vw 12vw;
+    width: 76vw;
+    display: flex;
+    /* justify-content:center;   do not */
+    align-items: center;
+    
+}
+.special_shop{
+    position: relative;
+    width: 76vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0vw 12vw;
+    margin-top: 10vh;
+
+    /* border: 2px solid green; */
+}
+
+.special_text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left:3vw;
+}
+
+.special_text p{
+    text-align: left;
+    color: #767676;
+}
+
+p{
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.32px;
+}
+h1{
+    font-family: "Playfair Display", Sans-serif;
+    font-size: 46px;
+    font-weight: 400;
+}
+
+.shop_trend_btn{
+    width:40%;
+    font-size: 13px;
+    background-color: black;
+    color: white;
+    border: 0px;
+    height: 45px;
+}
+.shop_trend_btn a{
+    text-decoration: none;
+    color: white;
+}
+.shop_trend_btn:hover{
+    background-color: #bc8a5f;
+}
